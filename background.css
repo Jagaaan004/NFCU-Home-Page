@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+}
+
+.global-header__logo-link {
+    background-image: url(nfo-fom-logo.svg) no-repeat;
+    background-size: auto 100%;
+    background-position: 0;
+    width: 15pc;
+    height: 70px;
+    margin: 0;
+
+}
+
+.global-header_header-wrap{
+max-width: 60.125rem;
+margin-left: auto;
+margin-right: auto;
+z-index:3;
+position:relative;
+background: #fa9583;
+}
+
+.global-header_header-wrap::after{
+clear:both;
+content:"";
+display: table;
+
+}
+a:focus {
+  border:dotted #0667ba;
+  }
+
+
+
+
+#basics {
+    float: right;
+    margin-bottom: 25px;
+}
+
+
+#routingNumber {
+    display: inline-block;
+    color: grey;
+}
+
+#numbers {
+    display: inline-block;
+    font-weight: bold;
+}
+
+#branches {
+    display: inline-block;
+    margin-right: 43px;
+    margin-left: 70px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+#signIn {
+    display: inline-block;
+    margin-right: 50px;
+    font-weight: bold;
+    color: darkblue;
+}
