@@ -36,11 +36,8 @@ background: #fa9583;
 clear:both;
 content:"";
 display: table;
-
 }
-a:focus {
-    border:dotted #0667ba;
-    }
+
 
 /* ID for UL */
 #basics {
@@ -51,7 +48,7 @@ margin-top: 10px;
 margin-left: 400px;
 }
 
-/* ID for Routine Number */
+/* ID for Routing Number */
 #routingNumber {
 display: inline-block;
 color: grey;
@@ -89,43 +86,20 @@ color: #0667ba;
 font-weight: 700;
 }
 
-#accountType {
-display: inline-block;
-margin-right: 15px;
-color: #0667ba;
-font-weight: 700;
-}
-
-#CC {
-display: inline-block;
-margin-right: 15px;
-color: #0667ba;
-font-weight: 700;
-}
-
-#services {
-display: inline-block;
-margin-right: 15px;
-color: #0667ba;
-font-weight: 700;
-}
-
-#financial {
-display: inline-block;
-margin-right: 15px;
-color: #0667ba;
-font-weight: 700;
-}
-
-#membership {
-display: inline-block;
-margin-right: 30px;
-color: #0667ba;
-font-weight: 700;
-}
 
 .search {
 background-image: url(nfo-fom-logo.svg) no-repeat;
 background-size: auto 100%;
 background-position: 0;
+}
+
+.nav-link {
+display: inline-block;
+margin-right: 15px;
+color: #0667ba;
+font-weight: 700; 
+}
+
+.membership {
+margin-right: 30px;
 }
