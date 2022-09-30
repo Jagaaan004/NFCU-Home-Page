@@ -1,74 +1,132 @@
 * {
-    margin: 0;
+margin: 0;
+}
+
+/* Image Class */
+.global-header__logo {
+box-shadow: none;
+z-index: 4;
+position: inherit;
+top: inherit;
+left: inherit;
+background: transparent none;
+filter: none;
+margin: 0;
+width: auto;
+display: inline-block;
+       
+}
+
+img {
+    max-width: 200px;
+    max-height: 300px;
+    float: left;
+}
+
+/* Div for everything so far */
+.global-header_header-wrap{
+margin-left: auto;
+margin-right: auto;
+z-index:3;
+position:relative;
+background: #fa9583;
+}
+
+.global-header_header-wrap::after{
+clear:both;
+content:"";
+display: table;
+
+}
+a:focus {
+    border:dotted #0667ba;
     }
-    
-    .global-header__logo {
-        box-shadow: none;
-        z-index: 4;
-        position: inherit;
-        top: inherit;
-        left: inherit;
-        background: transparent none;
-        filter: none;
-        margin: 0;
-        width: auto;
-        display: inline-block;
-           
-    }
-    
-    img {
-        max-width: 200px;
-        max-height: 300px;
-        float: left;
-    }
-    
-    .global-header_header-wrap{
-    margin-left: auto;
-    margin-right: auto;
-    z-index:3;
-    position:relative;
-    background: #fa9583;
-    }
-    
-    .global-header_header-wrap::after{
-    clear:both;
-    content:"";
-    display: table;
-    
-    }
-    a:focus {
-        border:dotted #0667ba;
-        }
-    
-    #basics {
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    margin-top: 10px;
-    margin-left: 400px;
-    }
-    
-    #routingNumber {
-    display: inline-block;
-    color: grey;
-    }
-    
-    #numbers {
-    display: inline-block;
-    font-weight: 700;
-    }
-    
-    #branches {
-    display: inline-block;
-    margin-right: 43px;
-    margin-left: 70px;
-    color: #0667ba;
-    font-weight: 700;
-    }
-    
-    #signIn {
-    display: inline-block;
-    margin-right: 50px;
-    color: #0667ba;
-    font-weight: 700;
-    }
+
+/* ID for UL */
+#basics {
+display: inline-block;
+position: absolute;
+top: 0;
+margin-top: 10px;
+margin-left: 400px;
+}
+
+/* ID for Routine Number */
+#routingNumber {
+display: inline-block;
+color: grey;
+margin-left: 70px;
+}
+
+/* ID for Number next to Routing Number */
+#numbers {
+display: inline-block;
+font-weight: 700;
+}
+
+/* ID for Branches & ATMs  */
+#branches {
+display: inline-block;
+margin-left: 60px;
+margin-top: 10px;
+color: #0667ba;
+font-weight: 700;
+}
+
+/* ID for Sign In */
+#signIn {
+display: inline-block;
+margin-left: 40px;
+margin-bottom: 10px;
+color: #0667ba;
+font-weight: 700;
+}
+
+#options {
+float: right;
+margin-top: 50px;
+margin-right: 100px;
+color: #0667ba;
+font-weight: 700;
+}
+
+#accountType {
+display: inline-block;
+margin-right: 15px;
+color: #0667ba;
+font-weight: 700;
+}
+
+#CC {
+display: inline-block;
+margin-right: 15px;
+color: #0667ba;
+font-weight: 700;
+}
+
+#services {
+display: inline-block;
+margin-right: 15px;
+color: #0667ba;
+font-weight: 700;
+}
+
+#financial {
+display: inline-block;
+margin-right: 15px;
+color: #0667ba;
+font-weight: 700;
+}
+
+#membership {
+display: inline-block;
+margin-right: 30px;
+color: #0667ba;
+font-weight: 700;
+}
+
+.search {
+background-image: url(nfo-fom-logo.svg) no-repeat;
+background-size: auto 100%;
+background-position: 0;
+}
