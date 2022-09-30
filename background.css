@@ -1,66 +1,74 @@
 * {
-margin: 0;
-}
-
-.global-header__logo-link {
-background-image: url(nfo-fom-logo.svg) no-repeat;
-background-size: auto 100%;
-background-position: 0;
-width: 15pc;
-height: 70px;
-margin: 10px 0 0 20px;
-}
-
-.global-header_header-wrap{
-margin-left: auto;
-margin-right: auto;
-z-index:3;
-position:relative;
-background: #fa9583;
-}
-
-.global-header_header-wrap::after{
-clear:both;
-content:"";
-display: table;
-
-}
-a:focus {
-    border:dotted #0667ba;
+    margin: 0;
     }
-
-#basics {
-display: inline-block;
-position: absolute;
-top: 0;
-margin-top: 10px;
-margin-left: 400px;
-}
-
-#routingNumber {
-display: inline-block;
-color: grey;
-}
-
-#numbers {
-display: inline-block;
-font-weight: 700;
-}
-
-#branches {
-display: inline-block;
-margin-right: 43px;
-margin-left: 70px;
-color: #0667ba;
-font-weight: 700;
-}
-
-#signIn {
-display: inline-block;
-margin-right: 50px;
-color: #0667ba;
-font-weight: 700;
-}
-
-
-
+    
+    .global-header__logo {
+        box-shadow: none;
+        z-index: 4;
+        position: inherit;
+        top: inherit;
+        left: inherit;
+        background: transparent none;
+        filter: none;
+        margin: 0;
+        width: auto;
+        display: inline-block;
+           
+    }
+    
+    img {
+        max-width: 200px;
+        max-height: 300px;
+        float: left;
+    }
+    
+    .global-header_header-wrap{
+    margin-left: auto;
+    margin-right: auto;
+    z-index:3;
+    position:relative;
+    background: #fa9583;
+    }
+    
+    .global-header_header-wrap::after{
+    clear:both;
+    content:"";
+    display: table;
+    
+    }
+    a:focus {
+        border:dotted #0667ba;
+        }
+    
+    #basics {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+    margin-left: 400px;
+    }
+    
+    #routingNumber {
+    display: inline-block;
+    color: grey;
+    }
+    
+    #numbers {
+    display: inline-block;
+    font-weight: 700;
+    }
+    
+    #branches {
+    display: inline-block;
+    margin-right: 43px;
+    margin-left: 70px;
+    color: #0667ba;
+    font-weight: 700;
+    }
+    
+    #signIn {
+    display: inline-block;
+    margin-right: 50px;
+    color: #0667ba;
+    font-weight: 700;
+    }
