@@ -14,13 +14,13 @@ filter: none;
 margin: 0;
 width: auto;
 display: inline-block;
-       
 }
 
-img {
-    max-width: 200px;
-    max-height: 300px;
-    float: left;
+.logo {
+max-width: 200px;
+max-height: 300px;
+margin-left: 60px;
+padding-top: 35px;
 }
 
 /* Div for everything so far */
@@ -28,7 +28,7 @@ img {
 margin-left: auto;
 margin-right: auto;
 z-index:3;
-position:relative;
+position: relative;
 background: #fa9583;
 }
 
@@ -55,7 +55,7 @@ margin-left: 400px;
 #routingNumber {
 display: inline-block;
 color: grey;
-margin-left: 70px;
+margin-left: 50px;
 }
 
 /* ID for Number next to Routing Number */
@@ -84,8 +84,7 @@ font-weight: 700;
 
 #options {
 float: right;
-margin-top: 50px;
-margin-right: 100px;
+margin: 5px 80px 20px 0;
 color: #0667ba;
 font-weight: 700;
 }
