@@ -100,16 +100,13 @@ float: right;
 
 /* Class for Nav Links  */
 .nav-link {
-display: inline-block;
+
 margin: 19px 10px 0 0;
 color: #0667ba;
 font-weight: 700; 
 }
 
-/* Class for Membership  */
-.membership {
-margin-right: 45px;
-}
+
 
 /* Search Icon */
 .search {
@@ -121,6 +118,7 @@ margin-left: 765px;
 
 /* Dropdown Button */
 .link {
+position: relative;
 background: none;
 border: none;
 text-decoration: none;
@@ -164,16 +162,16 @@ display: block;
 
 /* Big Middle Background Image  */
 .container {
-background-image: url("Home Page.jpg");
 background-size: cover;
 background-repeat: no-repeat;
-width: 1260px;
-height: 700px;
+width: 100%;
+height: 100%;
+overflow: hidden;
 }
 
 /* Text on Top of Image  */
 .information {
-position: absolute;
+position: relative; bottom: 900px;
 margin-top: 120px;
 margin-left: 65px;
 } 
@@ -193,6 +191,132 @@ color: white;
 
 /* "Learn More" Text */
 .learn {
+position: relative; bottom: 00px;
 line-height: 45px;
+color: white;
+}
+
+/* Rectangle Username and Password Login on Top of Background Image  */
+.sign-in-container {
+position: absolute;
+height: 151px;
+width: 500px;
+background: #f3f3f1;
+margin-left: 60px;
+margin-top: 462px;
+border-top: 5px solid #ed780f;
+}
+
+/* Sign In Rectangle  */
+.toolbar-signin {
+position: absolute;
+height: 60px;
+width: 230px;
+background: #f3f3f1;
+margin-left: 60px;
+margin-top: 618px;
+border-top: 1px solid grey;
+}
+
+/* Sign In Design Under Rectangle Sign In Container  */
+.sign-in-drop {
+position: relative; left: 50px; top: 18px;
+font-size: 20px;
+color: grey;
+}
+
+/* Lock Design next to Sign In Design Under Rectangle Container  */
+.sign-in-lock {
+position: absolute; top: 15px; left: 10px;
+}
+
+/* Orange Sign In Button  */
+.container-button-signin {
+position: relative; bottom: 35px;
+color: #f3f3f1;
+background-color: #ED780F;
+border: none;
+margin-left: 380px;
+height: 30px;
+width: 100px;
+border-radius: 5px;
+box-shadow: 0 1px grey;
+font-size: 15px;
+}
+
+/* Styling for Username and Password  */
+.userinfo {
+font-size: 17px;
+margin-top: 20px; 
+position: relative; bottom: 5px;
+color: #383A3A;
+}
+
+/* Question Mark Design next to Username  */
+.username-help {
+    position: relative; top: 6px;
+}
+
+/* Username Label  */
+.container-username {
+margin-left: 15px;  
+}
+
+/* Password Label  */
+.container-password {
+margin-left: 75px; 
+}
+
+/* Username Input Field  */
+.username-input {
+display: inline-block;
+margin-left: 15px;
+}
+
+/* Password Input Field  */
+.password-input {
+margin-top: 10px;
+margin-left: 7px;
+}
+
+/* Style for both Input Fields  */
+.input-field {
+height: 25px;
+width: 160px;
+font-size: 10pt;
+margin-top: 8px;
+}
+
+/* Sign in Help Href  */
+.sign-in-help {
+position: relative; left: 15px; bottom: 15px;
+text-decoration: none; border-bottom: 1.5px dotted;
+color: #0667ba;
+}
+
+/* Enroll in Digital Banking  */
+.enrollment {
+position: relative; left: 230px; bottom: 15px;
+text-decoration: none; border-bottom: 1.5px dotted;
+color: #0667ba;
+}
+
+.checkings-dropdown {
+    position: relative; right: 600px; bottom: 39px;
+}
+
+.loans-dropdown {
+    position: relative; left: 40px;
+}
+
+.services-dropdown {
+    position: relative; left: 10px;
+}
+
+.financial-dropdown {
+    position: relative; right: 20px;
+}
+.membership-dropdown {
+    position: relative; right: 55px;
 }
 
