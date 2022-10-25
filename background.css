@@ -28,16 +28,10 @@ margin-bottom: 15px;
 .global-header_header-wrap{
 margin-left: auto;
 margin-right: auto;
-z-index:3;
 position: relative;
-background: white;
+background: rgb(255, 72, 72);
 }
 
-.global-header_header-wrap::after{
-clear:both;
-content:"";
-display: table;
-}
 
 
 /* Class for UL */
@@ -45,7 +39,7 @@ display: table;
 position: absolute;
 top: 0;
 margin-top: 10px;
-margin-left: 400px;
+margin-left: 600px;
 }
 
 .location {
@@ -100,20 +94,24 @@ float: right;
 
 /* Class for Nav Links  */
 .nav-link {
+display: inline-block;
+margin: 50px 0px 0px 300px;
+}
 
-margin: 19px 10px 0 0;
+.text {
 color: #0667ba;
 font-weight: 700; 
 }
 
 
 
+
 /* Search Icon */
 .search {
 position: absolute;
-height: 28px;
-margin-top: 17px;
-margin-left: 765px;
+height: 25px;
+margin: 75px 0px 0px 0px;
+
 }
 
 /* Dropdown Button */
@@ -301,6 +299,11 @@ text-decoration: none; border-bottom: 1.5px dotted;
 color: #0667ba;
 }
 
+.background {
+    width: 100%;
+}
+
+/*
 .checkings-dropdown {
     position: relative; right: 600px; bottom: 39px;
 }
@@ -319,4 +322,5 @@ color: #0667ba;
 .membership-dropdown {
     position: relative; right: 55px;
 }
+*/
 
