@@ -17,19 +17,21 @@ display: inline-block;
 }
 
 .logo {
-max-width: 200px;
-max-height: 300px;
-margin-left: 60px;
+max-width: 150px;
+max-height: 250px;
+margin-left: 30px;
 padding-top: 15px;
-margin-bottom: 15px;
+padding-bottom: 10px;
 }
 
 /* Div for everything so far */
 .global-header_header-wrap{
+max-width: 60.125em;
 margin-left: auto;
 margin-right: auto;
+z-index: 3;
 position: relative;
-background: rgb(255, 72, 72);
+background:#fff(255, 72, 72);
 }
 
 
@@ -39,7 +41,7 @@ background: rgb(255, 72, 72);
 position: absolute;
 top: 0;
 margin-top: 10px;
-margin-left: 600px;
+
 }
 
 .location {
@@ -61,18 +63,25 @@ height: 18px;
 display: inline-block;
 color: #0667ba;
 font-weight: 700;
+font-size: .75rem;
 }
 
 /* Class for Routing Number */
 .routing-number {
 color: grey;
-margin-left: 300px;
 }
 
 /* Class for Number next to Routing Number */
 .numbers {
 color: black;
 margin-right: 27px;
+}
+
+.testing {
+    justify-content: right;
+    display:inline-block;
+    margin-left: 35%;
+
 }
 
 /* Class for Branches & ATMs  */
@@ -95,12 +104,14 @@ float: right;
 /* Class for Nav Links  */
 .nav-link {
 display: inline-block;
-margin: 50px 0px 0px 300px;
+margin-left: 20%;
+font-size: .85rem;
 }
 
 .text {
 color: #0667ba;
 font-weight: 700; 
+
 }
 
 
@@ -169,8 +180,9 @@ overflow: hidden;
 
 /* Text on Top of Image  */
 .information {
-position: relative; bottom: 900px;
-margin-top: 120px;
+position: relative; 
+bottom: 900px;
+margin-top: 0px;
 margin-left: 65px;
 } 
 
@@ -301,6 +313,20 @@ color: #0667ba;
 
 .background {
     width: 100%;
+}
+
+.global-header__nav-wrap {
+    position: absolute;
+    top: auto;
+    right: 0;
+    bottom: 5px;
+    left: 0;
+    visibility: visible;
+    background-color: transparent;
+    box-shadow: none;
+    width: auto;
+   
+    overflow: visible;
 }
 
 /*
