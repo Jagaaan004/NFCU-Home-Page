@@ -312,42 +312,21 @@
     }
     
     .background {
-        width: 100%;
+    width: 100%;
     }
     
     .global-header__nav-wrap {
-        position: absolute;
-        top: auto;
-        right: 0;
-        bottom: 5px;
-        left: 0;
-        visibility: visible;
-        background-color: transparent;
-        box-shadow: none;
-        width: auto;
-       
-        overflow: visible;
+    position: absolute;
+    top: auto;
+    right: 0;
+    bottom: 5px;
+    left: 0;
+    visibility: visible;
+    background-color: transparent;
+    box-shadow: none;
+    width: auto;
+    overflow: visible;
     }
-    
-    /*
-    .checkings-dropdown {
-        position: relative; right: 600px; bottom: 39px;
-    }
-    
-    .loans-dropdown {
-        position: relative; left: 40px;
-    }
-    
-    .services-dropdown {
-        position: relative; left: 10px;
-    }
-    
-    .financial-dropdown {
-        position: relative; right: 20px;
-    }
-    .membership-dropdown {
-        position: relative; right: 55px;
-    }
-    */
+
     
     
