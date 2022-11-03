@@ -174,6 +174,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+
     height: 100%;
     overflow: hidden;
     }
@@ -211,6 +212,7 @@
     /* Rectangle Username and Password Login on Top of Background Image  */
     .sign-in-container {
     position: absolute;
+
     height: 151px;
     width: 500px;
     background: #f3f3f1;

