@@ -7,13 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Navy Federal Credit Union</title>
     <link rel="stylesheet" href="background.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
     <!--.header wrap-->
-    <form>
         <div class="global-header_header-wrap">
-            <header>
+           
                 <!-- Image -->
                 <a href="http://127.0.0.1:5555/NFCU-Home-Page/NFCU-Basics.HTML"><img
                         src="nfo-fom-logo.svg" class="logo"></a>
@@ -36,8 +36,8 @@
                   <div class=global-header__nav-wrap>
                       <nav class="nav-link">
                         <ul class="dropdown options">
-                          <button class="link text">Membership</button>
-                          <li class="dropdown-content">                 
+                          <button onclick="myFunction()" class="link text">Membership</button>
+                          <li id="myDropdown" class="dropdown-content">                 
                             <a href="https://www.navyfederal.org/membership/become-a-member.html">Become a Memeber</a>
                             <a href="https://www.navyfederal.org/membership/welcome-to-navy-federal.html">Welcome to Navy Federal</a>
                             <a href="https://www.navyfederal.org/membership/offers-discounts.html">Offers & Discounts</a>
@@ -46,8 +46,8 @@
                           </li>
                         </ul>
                       <ul class="dropdown options">
-                        <button class="link text">Financial Wellness</button>
-                        <li class="dropdown-content">
+                        <button onclick="myFunction()" class="link text">Financial Wellness</button>
+                        <li id="myDropdown" class="dropdown-content">
                           <a href="https://www.navyfederal.org/makingcents.html">MakingCents</a>
                           <a href="https://www.navyfederal.org/makingcents/savings-budgeting.html">Savings & Budgetin</a>
                           <a href="https://www.navyfederal.org/makingcents/credit-debt.html">Credit & Debt</a>
@@ -60,8 +60,8 @@
                         </li>
                       </ul>
                       <ul class="dropdown options">
-                        <button class="link text">Services</button>
-                        <li class="dropdown-content ">
+                        <button onclick="myFunction()" class="link text">Services</button>
+                        <li id="myDropdown" class="dropdown-content ">
                           <a href="https://www.navyfederal.org/services/security.html">Security</a>
                           <a href="https://www.navyfederal.org/services/mobile-online-banking.html">Mobile and Online Banking</a>
                           <a href="https://www.navyfederal.org/branches-atms.html">Branches & ATMs</a>
@@ -71,8 +71,8 @@
                         </li>
                       </ul>
                       <ul class="dropdown options">
-                        <button class="link text">Loans & Credit Cards</button>
-                        <li class="dropdown-content ">
+                        <button onclick="myFunction()" class="link text">Loans & Credit Cards</button>
+                        <li id="myDropdown" class="dropdown-content ">
                           <a href="https://www.navyfederal.org/loans-cards/credit-cards.html">Credit Cards </a>
                           <a href="https://www.navyfederal.org/loans-cards/auto-loans.html">Auto Loans</a>
                           <a href="https://www.navyfederal.org/loans-cards/mortgage.html">Mortgages</a>
@@ -83,8 +83,8 @@
                         </li>
                       </ul>
                       <ul class="dropdown options">
-                        <button class="link text">Checking & Savings</button>
-                        <li class="dropdown-content checking-savings">
+                        <button onclick="myFunction()" class="link text">Checking & Savings</button>
+                        <li id="myDropdown" class="dropdown-content checking-savings">
                           <a href="https://www.navyfederal.org/checking-savings/checking.html">Checking & Debit Cards </a>
                           <a href="https://www.navyfederal.org/checking-savings/savings.html">Saving Accounts</a>
                           <a href="https://www.navyfederal.org/checking-savings/savings/certificates.html">Certificates</a>
@@ -95,48 +95,57 @@
                         </li>
                       </ul>
                       </nav>
-                    </div> 
-                    
-                   
-            </header>
-    </form>
+                    </div>           
     </div>
 
-<div class="sign-in-container">
-    <div>
-    <label class="userinfo container-username">Username</label><img src="./help.png" class="username-help">
-    <label class="userinfo container-password">Password</label>
-    </div>
-    <div>
-    <input type="text" class="input-field username-input">
-    <input type="text" class="input-field password-input">
-    <button type="button" class="container-button-signin">Sign In</button>
-    </div>
-    <p class="toolbar-options">
-        <a href="https://accountservices.navyfederal.org/account-recovery/" class="sign-in-help">Sign In Help</a>
-        <a href="https://accountservices.navyfederal.org/enrollment/" class="enrollment">Enroll in Digital Banking</a>
-    </p>
-</div>
-
-<div class="toolbar-signin">
-    <img src="./sign-out.png" class="sign-in-lock"><p class="sign-in-drop">Sign In</p>
-</div>
-
-<div class="container">
-  <img src="nfcu.retina-large.2048.1000.jpg" class="background">
-<article>
-    <header class="information">
-        <h1 class="homepage-image-header">Accelerate Your Savings</h1>
+    <div class="Background-image">
+      <div class="information">
+          <div>
+          <h1 class="homepage-image-header"><span> Your Savings</span></h1>
+      </div>
+      <div>
         <p class="homepage-image-paragraph">
-            Earn more on your money with our new 
+            <span>more on your money with our new>
             <br>
             highly competitive certificate rates!
             <br>
             <a href="https://www.navyfederal.org/checking-savings/savings/certificates.html?intcmp=hp|hero|||cdira|newrates|07112022||mlm|" class="learn">Learn More</a>
+          </span>
         </p>
-    </header>
-</article>
-</div>
+      </div>     
+      </div>
+      
+      
+      <div class="sign-in-container">
+      <div>
+          <label class="userinfo container-username">Username</label><img src="./help.png" class="username-help">
+          <input type="text" class="input-field password-input">
+          <p class="toolbar-options">
+              <a href="https://accountservices.navyfederal.org/account-recovery/" class="sign-in-help">Sign In Help</a>
+          </p>    
+      </div>
+      <div>
+      <p class="toolbar-options">    
+          <label class="userinfo container-password">Password</label>
+          <input type="text" class="input-field username-input">
+          <button type="button" class="container-button-signin">Sign In</button>
+          <a href="https://accountservices.navyfederal.org/enrollment/" class="enrollment">Enroll in Digital Banking</a>
+      </p>
+      </div> 
+      </div>
+
+  
+      <div class="Toolbar-wrap">
+          <div class="toolbar1"><img src="./sign-out.png" class="sign-in-lock"><p class="sign-in-drop">Sign In</p></div>
+          <div class="toolbar2"><button class="toolbar__button"><img src="location.png" class="toolbar_content">Branches &amp; ATMs</button></div>
+          <div class="toolbar3"><button class="toolbar__button"><img src="" class="toolbar_content">Featured Products</button></div>
+          <div class="toolbar4"><button class="toolbar__button"><img src="" class="toolbar_content">Become a Member</button></div>
+      </div>
+     </div>
+  </div>
+  
+
+
 </body>
 </html>
 Footer
