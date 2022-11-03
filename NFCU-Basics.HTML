@@ -111,23 +111,6 @@
 
     </div>
 
-<div class="sign-in-container">
-    <div>
-    <label class="userinfo container-username">Username</label><img src="./help.png" class="username-help">
-    <label class="userinfo container-password">Password</label>
-    </div>
-    <div>
-    <input type="text" class="input-field username-input" required>
-    <input type="password" class="input-field password-input" minlength="6" required>
-    <button type="button" class="container-button-signin" onclick="errorMessage()">Sign In</button>
-    </div>
-    <div class="error-message-div"></div>
-    <p class="toolbar-options">
-        <a href="https://accountservices.navyfederal.org/account-recovery/" class="sign-in-help">Sign In Help</a>
-        <a href="https://accountservices.navyfederal.org/enrollment/" class="enrollment">Enroll in Digital Banking</a>
-    </p>
-</div>
-
     <div class="Background-image">
       <div class="information">
           <div>
@@ -150,7 +133,7 @@
       <div class="sign-in-container">
       <div>
           <label class="userinfo container-username">Username</label><img src="./help.png" class="username-help">
-          <input type="text" class="input-field password-input">
+            <input type="text" class="input-field username-input" required>
           <p class="toolbar-options">
               <a href="https://accountservices.navyfederal.org/account-recovery/" class="sign-in-help">Sign In Help</a>
           </p>    
@@ -158,8 +141,9 @@
       <div>
       <p class="toolbar-options">    
           <label class="userinfo container-password">Password</label>
-          <input type="text" class="input-field username-input">
-          <button type="button" class="container-button-signin">Sign In</button>
+          <input type="password" class="input-field password-input" minlength="6" required>
+          <button type="button" class="container-button-signin" onclick="errorMessage()">Sign In</button>
+          <div class="error-message-div"></div>
           <a href="https://accountservices.navyfederal.org/enrollment/" class="enrollment">Enroll in Digital Banking</a>
       </p>
       </div> 
