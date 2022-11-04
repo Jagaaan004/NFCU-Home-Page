@@ -204,6 +204,9 @@ display: block;
 
 /* Text on Top of Image  */
 .information {
+
+    padding-top: 120px;
+
     margin-left:60px;
     padding-bottom:60px;
 }
