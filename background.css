@@ -425,3 +425,10 @@ color: #0667ba;
     padding-left: 30px; 
 }
 
+/* Sign In Error Message  */
+.error-message-div {
+    position: relative; bottom: 12px; right: 105px;
+    width: 130%;
+    font-weight: bold;
+}
+

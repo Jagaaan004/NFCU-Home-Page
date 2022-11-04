@@ -1,3 +1,4 @@
+
 function errorMessage() {
 
 const username = document.getElementsByClassName("username-input")[0];
@@ -13,4 +14,32 @@ error.textContent = ""
 }
 }
 
+// Ignore for now 
+// function enterSignIn() { 
+//     const passwordInput = document.getElementsByClassName("password-input")[0];
 
+//     passwordInput.addEventListener("keydown", function(event) {
+//         if (event.keycode === 13) {
+//             // event.preventDefault();
+//             document.getElementsById("btn").click();
+//             console.log("Clicked");
+//         }
+//     });
+// }
+    
+
+
+// Ignore for now 
+// const passwordInput = document.getElementById("btn");
+// btn.AddEventListener("click", (ev)=>{
+//     console.log("btn clicked");
+// });
+
+// document.addEventListener("keypress", (event)=>{
+//     let keycode = event.keycode ? event.keycode : event.which;
+
+//     if (keycode === 13) {
+//         btn.click();
+//     }
+// });
+// }
