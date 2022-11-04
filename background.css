@@ -204,6 +204,7 @@ display: block;
 
 /* Text on Top of Image  */
 .information {
+    padding-top: 120px;
     margin-left:60px;
     padding-bottom:60px;
 }
@@ -420,5 +421,12 @@ color: #0667ba;
     margin-right:10px;
     align-items: center;
     padding-left: 30px; 
+}
+
+/* Sign In Error Message  */
+.error-message-div {
+    position: relative; bottom: 12px; right: 105px;
+    width: 130%;
+    font-weight: bold;
 }
 
